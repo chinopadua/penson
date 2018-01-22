@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      <title>Penson & Company, Inc - Equity investment and Holding Firm</title>
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <link rel="alternate" hreflang="en" href="http://www.coachibs.com/" />
 
-<head>
+      <!-- Favicon
+      ================================================== -->
+      <link href="static/favicon.png" rel="shortcut icon" type="image/png">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Penson & Company, Inc - Equity investment and Holding Firm</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <!-- CSS
+      ================================================== -->
+      <link href="static/css/site.css" media="screen" rel="stylesheet">
+      <link href="static/css/css.css" rel="stylesheet" type="text/css">
+      <link href="static/css/css(1).css" rel="stylesheet" type="text/css">
+      <link href="static/css/animate.min.css" rel="stylesheet">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Icons
+      ================================================== -->
+      <link href="static/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet">
+      
+      <!-- Fonts
+      ================================================== -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+      <!-- scripts
+      ================================================== -->
+      <script src="static/js/site.js"></script>
+      <script src="static/js/wow.min.js"></script>
+      <script src="static/js/modernizr.js"></script>
+      <script src="static/js/pace.min.js"></script>
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <!-- Swiper-->
+      <script src="static/js/swiper.min.js"></script>
+      <link href="static/css/swiper.min.css" rel="stylesheet" type="text/css">
 
-</head>
+   </head>
 
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+   <body itemscope itemtype="http://schema.org/WebPage">
+   
+      <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+            <a class="site-logo" href="index">
+                <img src="static/img/penson-logo-master-03.png" alt="Homepage">
             </a>
         </div>
 
@@ -58,9 +63,9 @@
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#s-projects" title="projects">Projects</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Our Companies</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Partners</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Projects</a></li>
+                    <li><a class="smoothscroll"  href="#s-partners" title="partners">Partners</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
@@ -91,34 +96,56 @@
     </header> <!-- end s-header -->
 
 
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+      <section id="slider">
+         <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-example-generic">
+            <ol class="carousel-indicators">
+               <li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+               <li data-slide-to="1" data-target="#carousel-example-generic" class=""></li>
+            </ol>
 
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
+            <div class="carousel-inner" role="listbox">
 
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Penson & Company, Inc.</h3>
-
-                <h1>
-                    Infastructure <br>
-                    for the next <br>
-                    generation <br>
-                </h1>
-
-                <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Start a Project
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Us
-                    </a>
-                </div>
-
+               <div itemprop="primaryImageOfPage" class="item active" style="background-image: url('static/img/hero-bg.jpg')" data-speed="7">
+>
+                  <!--<video class="videobg" preload="auto" loop="" autoplay="" poster="static/img/hero-bg.jpg">
+                     <source src="static/vid/video-landing.mp4" type="video/mp4">
+                  </video>-->
+                  <div class="overlay"></div>
+                  <div class="shadow-overlay"></div>
+                  <div id="video-text-overlay">
+                     <div class="container home-content">
+                        <div class="row align-middle">
+                           <div class="col-md-6 col-md-offset-2 wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1s">
+                              <h3>Penson & Company, Inc.</h3>
+                              <h1>Infastructure for the next generation</h1>
+                              <div class="home-content__buttons">
+                                 <a href="#about" class="smoothscroll btn btn--stroke">More About Us </a>
+                              </div>
+                           </div>
+                        </div>   
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="item">
+                  <video class="videobg" preload="auto" loop="" autoplay="" poster="static/img/carlight.jpg">
+                     <source src="static/vid/building.mp4" type="video/mp4">
+                  </video>
+                  <div class="overlay"></div>
+                  <div class="shadow-overlay"></div>
+                  <div id="video-text-overlay2">
+                     <div class="container">
+                        <div class="container home-content">
+                           <div class="row align-middle">
+                              <div class="col-md-6 col-md-offset-2 wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1s">
+                                 <h3>Penson & Company, Inc.</h3>
+                                 <h1>Infastructure for the next generation</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
 
             <div class="home-content__scroll">
@@ -129,10 +156,8 @@
 
             <div class="home-content__line"></div>
 
-        </div> <!-- end home-content -->
-
-
-        <ul class="home-social">
+         </div>
+         <ul class="home-social">
             <li>
                 <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
             </li>
@@ -143,458 +168,318 @@
                 <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
         </ul> 
-        <!-- end home-social -->
+      </section>
 
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--dark">Hello There</h3>
-                <h1 class="display-1 display-1--light">We Are PCI</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-                <p>
-                <strong>Penson & Company Inc.</strong> is an equity investment and holding firm corporation  with subsidiaries that spans over five decades of experience in infrastructure development to include 30% of seaports in the country, airports and toll roads.
-                <br><br>
-                PCI is the proponent of the Seven Rivers Bulk Water Project in Quezon Provinces, the Metro Manila Flood Mitigation Project and the Sangley Point General Aviation Redevelopment Project. P&CI Engaged in PPP infrastructure development related to renewable energy, bulk water, defense and transport (equity partner of Ausphil Tollways Corp, Defense Resources Inc and Philco Aero Inc), as private proponent or sponsor. Private sponsor of the National Greening Movement Foundation (NGMF) and the Consumer Protection Advocacy Group (CPAG) as components of its CSR programs.
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                    
-            <div class="col-block stats__col">
-                <div class="stats__count">109</div>
-                <h5>Projects Completed</h5>
-            </div>
-
-        </div> <!-- end about-stats -->
-
-        <div class="about__line"></div>
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <!--<section id='services' class="s-services">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-2">We’ve got everything you need to launch and grow your business</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-       <!-- <div class="row services-list block-1-2 block-tab-full">
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Marketing</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Packaging Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon"><i class="icon-lego-block"></i></div>
-                <div class="service-text">
-                    <h3 class="h2">Web Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-        </div> <!-- end services-list -->
-
-   <!-- </section> <!-- end s-services -->
-
-
-    <!-- works
-    ================================================== -->
-    <section id='works' class="s-works">
-
-        <div class="intro-wrap">
-                
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Upcoming</h3>
-                    <h1 class="display-2 display-2--light">Our Latest Projects</h1>
-                </div>
+      <!-- about
+      ================================================== -->
+      <section id='about' class="s-about">
+         <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
+               <div class="col-md-12">
+                   <h3>Hello There</h3>
+                   <h1>We Are PCI</h1>
+               </div>
             </div> <!-- end section-header -->
 
-        </div> <!-- end intro-wrap -->
+            <div class="row about-desc wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
+               <div class="col-md-12 text-center">
+                   <p>
+                   <strong>Penson & Company Inc.</strong> is an equity investment and holding firm corporation  with subsidiaries that spans over five decades of experience in infrastructure development to include 30% of seaports in the country, airports and toll roads.
+                   <br><br>
+                   PCI is the proponent of the Seven Rivers Bulk Water Project in Quezon Provinces, the Metro Manila Flood Mitigation Project and the Sangley Point General Aviation Redevelopment Project. P&CI Engaged in PPP infrastructure development related to renewable energy, bulk water, defense and transport (equity partner of Ausphil Tollways Corp, Defense Resources Inc and Philco Aero Inc), as private proponent or sponsor. Private sponsor of the National Greening Movement Foundation (NGMF) and the Consumer Protection Advocacy Group (CPAG) as components of its CSR programs.
+                   </p>
+               </div>
+            </div> <!-- end about-desc -->
 
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-nlee.jpg" class="thumb-link" title="North Luzon East Expressway" data-size="1050x700">
-                                    <img src="images/portfolio/nlee.jpg" 
-                                         srcset="images/portfolio/nlee.jpg 1x, images/portfolio/nlee@2x.jpg 2x" alt="North Luzon East Expressway">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    NORTH LUZON EAST EXPRESSWAY
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Infastructure
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>The North Luzon East Expressway is a 6 to 4-lane, 456-kilometer, limited-access toll expressway which involves the application of the new concept or technology called the "Water Sensitive Urban Tollway," in the construction of the Stage 1 of the project from Quezon City to Norzagaray, Bulacan.
-                                <br>
-                                <a href="nlee" class="smoothscroll btn btn--stroke">Read More</a>
-                                <!--The subsequent stages stretch up to Gapan, Nueva Ecija on the island of Luzon in the Philippines. The construction involves 3 stages and will be the country's longest tollway when the expressway becomes fully operational.
-                                <br>
-                                The North Luzon East Expressway is a 6 to 4-lane, 456-kilometer, limited-access toll expressway which involves the application of the new concept or technology called the “Water Sensitive Urban Tollway,” in the construction of the Stage 1 of the project from Quezon City to Norzagaray, Bulacan. The subsequent stages stretch up to Gapan, Nueva Ecija on the island of Luzon in the Philippines. The construction involves 3 stages and will be the country’s longest tollway when the expressway becomes fully operational.
-                                <br>
-                                The first leg of the expressway begins from Commonwealth Avenue in Barangay Balara, Quezon City at the place called “La Mesa Parkways” which will be developed by Ausphil Tollways Corporation. Stage 1 will be a 6-lane tollway beginning from the “La Mesa Parkways” to Norzagaray, Bulacan. Stage 2 will be a 6-lane tollway from Norzagaray, Bulacan to Gapan, Nueva Ecija. The entire cost of this segment is ₱7.8 billion ($190,243,902.44).
-                                <br>
-                                The new concept or technology called the “Water Sensitive Urban Tollway,” will include the construction of wetlands and roadway system that will integrate the drainage of rainwater from the tollways to the collection and swale system filtration, which is compliant with the 1971 RAMSAR Convention on Wetlands and Philippine Environmental laws. The process involves the collection of rainwater in patented structures to be introduced within the tollways and the filtration of the collected rainwater utilizing wetland plan enzymes to remove pollutants from the swale filtered water. The integration of the wetlands and roadways in the project shall have favorable impact on the environment while producing 10.2 million cubic meters to the La Mesa Reservoir.
-                                -->
+            <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
+                       
+               <div class="col-block stats__col">
+                   <div class="stats__count">25</div>
+                   <h5>Projects Completed</h5>
+               </div>
+         </div>
+      </div> <!-- end about-stats -->
 
+      <div class="about__line"></div>
 
-                            </p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
+      </section> <!-- end s-about -->
 
-
-                </div> <!-- end masonry -->
-            </div> <!-- end col-full -->
-        </div> <!-- end works-content -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- clients
-    ================================================== -->
-    <section id="clients" class="s-clients">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Partners</h3>
-                <h1 class="display-2">We are honored to
-                partner up with these clients</h1>
+      <!-- Portfolio Grid Section -->
+      <section id="s-projects" class="s-projects">
+        <div class="container">
+            <div class="row">
+               <div class="row wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
+                  <div class="col-md-12">
+                      <h3>Upcoming</h3>
+                      <h1>Our Latest Projects</h1>
+                  </div>
+               </div> <!-- end section-header -->
             </div>
-        </div> <!-- end section-header -->
+               <div class="row wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
 
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    
-                    <a href="#0" title="HANIN CORPORATION " class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                    <a href="#0" title="PHENIX GARUDA" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                     
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="static/img/projects/nlee.jpg" class="img-responsive" alt="">
+                     </a>
+                     <div class="portfolio-caption">
+                        <h4>NORTH LUZON EAST EXPRESSWAY</h4>
+                        <p class="text-muted">Infastructure</p>
+                     </div>
+                  </div>
 
-        
-    </section> <!-- end s-clients -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="static/img/projects/plane.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>LARAP INTEGRATED DEVELOPMENT PROJECT (LIDP)</h4>
+                        <p class="text-muted">Infastructure</p>
+                    </div>
+                </div>
 
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for us</h1>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="static/img/projects/cablecar.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>METRO AIRJEEPNEY (MAJ) CABLE CAR SYSTEM</h4>
+                        <p class="text-muted">Infastructure</p>
+                    </div>
+                </div>
             </div>
         </div>
+      </section>
 
-        <div class="row contact-content" data-aos="fade-up">
-            
-            <div class="contact-primary">
 
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
+      <section id="s-partners" class="s-partners">
+         <div class="container">
+            <div class="row">
+               <div class="row wow fadeInUp" data-wow-duration="1.5s" style="visibility: hidden; animation-duration: 1.5s">
+                  <div class="col-md-12">
+                      <h3>MORE ABOUT Us</h3>
+                      <h1>We are honored to partner up with these companies</h1>
+                  </div>
+               </div> <!-- end section-header -->
+            </div>
+            <div class="company-container">
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                     <div class="row">
+                        <div itemprop="image" class="col-md-6 col-sm-6"><a class="company-box wow fadeIn" data-wow-duration="1.5s" href="#0" style="visibility: hidden; animation-duration: 1.5s; animation-name: none; background-image: url(static/img/partners/garuda.png);"></a></div>
+                        <div itemprop="image" class="col-md-6 col-sm-6"><a class="company-box wow fadeIn" data-wow-duration="1.5s" href="#0" style="visibility: hidden; animation-duration: 1.5s; animation-name: none; background-image: url(static/img/partners/garuda.png);"></a></div>
+                           </a>
                         </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div> <!-- end contact-primary -->
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>
-                            U 330 Chateau Verde Condominium, Valle Verde 1<br>
-                            E. Rodriguez Ave., (C5) Pasig City<br>
-                            Metro Manila Philippines 1604
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            contact@penson.ph<br>
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone: (+63) 2 571 0994<br>
-                            Phone Ext: (+63) 2 571 0996<br>
-                            Fax: (+63) 2 571 1006
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
-
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-
-        <div class="row footer-main">
-
-            <div class="col-six tab-full left footer-desc">
-
-                <div class="footer-logo"></div>
-                Penson & Company Inc. is an equity investment and holding firm corporation  with subsidiaries that spans over five decades of experience in infrastructure development to include 30% of seaports in the country, airports and toll roads.
-
-
+                     </div>
+                  </div>
+               </div>
             </div>
+         </div>
+      </section>
+      
 
-            <div class="col-six tab-full right footer-subscribe">
+      
+      <script type="text/javascript">new WOW().init();</script>
+      <footer itemscope itemtype="http://schema.org/WPFooter" id="footer">
+         <div class="container">
+            <div class="row wow fadeIn" data-wow-duration="1.5s">
+               <div class="col-md-5 col-md-offset-2 marginbottom20">
+                  <a class="site-logo-footer" href="index">
+                     <img src="static/img/penson-logo-master-04.png" alt="Footer-Logo">
+                  </a>
 
-                <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                  <p itemprop="about">Penson & Company Inc. is an equity investment and holding firm corporation with subsidiaries that spans over five decades of experience in infrastructure development to include 30% of seaports in the country, airports and toll roads.</p>
+               </div>
 
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div>
-
+               <div class="col-md-5">
+                  <div class="sec-header text-left">Stay In Touch</div>
+                  <p><i class="fa fa-phone mright-15"></i><span>(+63) 2 571 0994 / 2 571 0996 / Fax: (+63) 2 571 1006</span><br><i class="fa fa-map-marker mright-15"></i><span itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress"> U 330 Chateau Verde Condominium, Valle Verde 1, E. Rodriguez Ave., (C5) Pasig City
+                  </span>,<span itemprop="postalCode"> 1227</span><span itemprop="addressLocality"> Metro Manila Philippines 1604</span><br><i class="fa fa-desktop mright-15"></i><a itemprop="url" href="http://www.penson.ph/" target="blank">www.penson.ph</a><br><i class="fa fa-envelope mright-15"></i><a href="mailto:contact@penson.ph" target="top" itemprop="email">contact@penson.ph</a></p>
+                  <!--Social-->
+                  <a itemprop="sameAs" class="connect-link" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a itemprop="sameAs" class="connect-link" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                  <a itemprop="sameAs" class="connect-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a itemprop="sameAs" class="connect-link" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+               </div>
             </div>
+            <br><br>
+         </div>
+      </footer>
+      <section id="copywrite">
+         <div class="container">
+            <div class="row">
+               <div itemscope itemtype="http://schema.org/Brand" class="col-md-12">
+                  <p class="copywrite"> © Copyright Penson & Company, Inc. 2017</p>
+               </div>
+            </div>
+         </div>
 
-        </div> <!-- end footer-main -->
+         </div> <!-- end footer-bottom -->
+         <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#slider"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+         </div>
+      </section>
 
-        <div class="row footer-bottom">
 
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Penson & Company, Inc. 2017</span>
-                </div>
 
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+      <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>NORTH LUZON EAST EXPRESSWAY</h2>
+                            <p class="item-intro text-muted"><strong>Client's Name</strong></p>
+                            <img class="img-responsive" src="img/portfolio/son/son1.jpg" alt="">
 
-        </div> <!-- end footer-bottom -->
+                           <p>The North Luzon East Expressway is a 6 to 4-lane, 456-kilometer, limited-access toll expressway which involves the application of the new concept or technology called the "Water Sensitive Urban Tollway," in the construction of the Stage 1 of the project from Quezon City to Norzagaray, Bulacan. The subsequent stages stretch up to Gapan, Nueva Ecija on the island of Luzon in the Philippines. The construction involves 3 stages and will be the country's longest tollway when the expressway becomes fully operational.
+                           </p>
 
-    </footer> <!-- end footer -->
+                           <p>The first leg of the expressway begins from Commonwealth Avenue in Barangay Balara, Quezon City at the place called "La Mesa Parkways" which will be developed by Ausphil Tollways Corporation. Stage 1 will be a 6-lane tollway beginning from the "La Mesa Parkways” to Norzagaray, Bulacan. Stage 2 will be a 6-lane tollway from Norzagaray, Bulacan to Gapan, Nueva Ecija. The entire cost of this segment is ₱7.8 billion ($190,243,902.44).
+                           </p>
+   
+                           <p>The new concept or technology called the "Water Sensitive Urban Tollway," will include the construction of wetlands and roadway system that will integrate the drainage of rainwater from the tollways to the collection and swale system filtration, which is compliant with the 1971 RAMSAR Convention on Wetlands and Philippine Environmental laws. The process involves the collection of rainwater in patented structures to be introduced within the tollways and the filtration of the collected rainwater utilizing wetland plan enzymes to remove pollutants from the swale filtered water. The integration of the wetlands and roadways in the project shall have favorable impact on the environment while producing 10.2 million cubic meters to the La Mesa Reservoir. 
+                           </p>
 
 
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
+                            <img class="img-responsive" src="img/portfolio/son/son2.jpg" alt="">
+                            <img class="img-responsive" src="img/portfolio/son/son3.jpg" alt="">
+                            
+                            
+                            <ul class="list-inline">
+                                <li>Date: ???</li>
+                                <li>Client: ????</li>
+                                <li>Category: Infastructure</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
         </div>
     </div>
 
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>LARAP INTEGRATED DEVELOPMENT PROJECT (LIDP)</h2>
+                            <p class="item-intro text-muted"><strong>Client's Name</strong></p>
+                            <img class="img-responsive" src="img/portfolio/son/son1.jpg" alt="">
 
-    <!-- Java Script
+                           <p>The North Luzon East Expressway is a 6 to 4-lane, 456-kilometer, limited-access toll expressway which involves the application of the new concept or technology called the "Water Sensitive Urban Tollway," in the construction of the Stage 1 of the project from Quezon City to Norzagaray, Bulacan. The subsequent stages stretch up to Gapan, Nueva Ecija on the island of Luzon in the Philippines. The construction involves 3 stages and will be the country's longest tollway when the expressway becomes fully operational.
+                           </p>
+
+                           <p>The first leg of the expressway begins from Commonwealth Avenue in Barangay Balara, Quezon City at the place called "La Mesa Parkways" which will be developed by Ausphil Tollways Corporation. Stage 1 will be a 6-lane tollway beginning from the "La Mesa Parkways” to Norzagaray, Bulacan. Stage 2 will be a 6-lane tollway from Norzagaray, Bulacan to Gapan, Nueva Ecija. The entire cost of this segment is ₱7.8 billion ($190,243,902.44).
+                           </p>
+   
+                           <p>The new concept or technology called the "Water Sensitive Urban Tollway," will include the construction of wetlands and roadway system that will integrate the drainage of rainwater from the tollways to the collection and swale system filtration, which is compliant with the 1971 RAMSAR Convention on Wetlands and Philippine Environmental laws. The process involves the collection of rainwater in patented structures to be introduced within the tollways and the filtration of the collected rainwater utilizing wetland plan enzymes to remove pollutants from the swale filtered water. The integration of the wetlands and roadways in the project shall have favorable impact on the environment while producing 10.2 million cubic meters to the La Mesa Reservoir. 
+                           </p>
+
+
+
+                            <img class="img-responsive" src="img/portfolio/son/son2.jpg" alt="">
+                            <img class="img-responsive" src="img/portfolio/son/son3.jpg" alt="">
+                            
+                            
+                            <ul class="list-inline">
+                                <li>Date: ???</li>
+                                <li>Client: ????</li>
+                                <li>Category: Infastructure</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>METRO AIRJEEPNEY (MAJ) CABLE CAR SYSTEM</h2>
+                            <p class="item-intro text-muted"><strong>Client's Name</strong></p>
+                            <img class="img-responsive" src="img/portfolio/son/son1.jpg" alt="">
+
+                           <p>The North Luzon East Expressway is a 6 to 4-lane, 456-kilometer, limited-access toll expressway which involves the application of the new concept or technology called the "Water Sensitive Urban Tollway," in the construction of the Stage 1 of the project from Quezon City to Norzagaray, Bulacan. The subsequent stages stretch up to Gapan, Nueva Ecija on the island of Luzon in the Philippines. The construction involves 3 stages and will be the country's longest tollway when the expressway becomes fully operational.
+                           </p>
+
+                           <p>The first leg of the expressway begins from Commonwealth Avenue in Barangay Balara, Quezon City at the place called "La Mesa Parkways" which will be developed by Ausphil Tollways Corporation. Stage 1 will be a 6-lane tollway beginning from the "La Mesa Parkways” to Norzagaray, Bulacan. Stage 2 will be a 6-lane tollway from Norzagaray, Bulacan to Gapan, Nueva Ecija. The entire cost of this segment is ₱7.8 billion ($190,243,902.44).
+                           </p>
+   
+                           <p>The new concept or technology called the "Water Sensitive Urban Tollway," will include the construction of wetlands and roadway system that will integrate the drainage of rainwater from the tollways to the collection and swale system filtration, which is compliant with the 1971 RAMSAR Convention on Wetlands and Philippine Environmental laws. The process involves the collection of rainwater in patented structures to be introduced within the tollways and the filtration of the collected rainwater utilizing wetland plan enzymes to remove pollutants from the swale filtered water. The integration of the wetlands and roadways in the project shall have favorable impact on the environment while producing 10.2 million cubic meters to the La Mesa Reservoir. 
+                           </p>
+
+
+
+                            <img class="img-responsive" src="img/portfolio/son/son2.jpg" alt="">
+                            <img class="img-responsive" src="img/portfolio/son/son3.jpg" alt="">
+                            
+                            
+                            <ul class="list-inline">
+                                <li>Date: ???</li>
+                                <li>Client: ????</li>
+                                <li>Category: Infastructure</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+          <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/main.js"></script>
+   </body>
 </html>
