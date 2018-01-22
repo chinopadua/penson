@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /article/1
+Disallow: /transformation-elements
+Disallow: /mobile
+Disallow: /m
+	
+Disallow: /about
+Disallow: /testimonials/fundamental-3s
+Disallow: /testimonials/index
+Disallow: /testimonials/faq
+Disallow: /testimonials/coach-family-of-companies
+Disallow: /testimonials/transformation
+Disallow: /testimonials/coach-story
+Disallow: /testimonials/core-services
+Disallow: /testimonials/careers
+Disallow: /testimonials/contacts
+Disallow: /testimonials/founder
+Disallow: /testimonials/articles
+
+Sitemap: http://www.coachibs.com/sitemap.xml
